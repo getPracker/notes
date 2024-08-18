@@ -73,3 +73,9 @@ Some of the tools to list are:
 3. Nikto2: An open-source command-line vulnerability scanner for web servers.
 4. W3AF: An open-source web application scanner.
 
+### Packet Sniffing Demo
+Introduction
+1 min
+Packet sniffing is the act of logging and analyzing packets of data that are sent over a network. There are lots of different reasons you might want to do this. Attackers can use packet sniffing to reverse engineer Application Programming Interfaces (APIs) and find vulnerabilities. Defenders can use packet sniffing to look for suspicious activity on the network. Packet sniffing can also be used for troubleshooting network issues. Looking at individual sent packets can let us better understand what’s going on “under the hood”, and that knowledge can be used to fix or break things.
+
+Additionally, it is important to note that we don’t capture and analyze simultaneously. Some defensive security systems do analyze captured traffic in real-time, but it’s not practical for us humans. When we do a packet capture, we capture traffic first and save it in the packet capture (.cap or .pcap) file and finally analyze the file.
